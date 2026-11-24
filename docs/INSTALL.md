@@ -1,7 +1,6 @@
 # Installation and Tutorial
 
 The tutorial runs the script using `python`. Other operating systems may use `python3` or `py`. Please check the Python launcher installed on your system prior to running any command. 
-These instructions are for everyone. They should work the same way on every machine, so read through them and do what they say.
 
 ## Requirements
 
