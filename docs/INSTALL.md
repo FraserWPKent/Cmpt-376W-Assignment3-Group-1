@@ -12,7 +12,7 @@ Pip or other third-party dependencies are not required.
 
 Download the repository as a ZIP file and extract.
 
-## Execution
+## Usage
 
 Open the command-line in the repository root, the same location as `LogLens.py`. Run using `python`, `python3`, or `py` depending on your operating system.
 
