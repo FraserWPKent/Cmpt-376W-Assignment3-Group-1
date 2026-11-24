@@ -49,4 +49,4 @@ python loglens.py --help
 * `File not found`: Ensure that the file path name is correct or that the file exists before trying again.
 * `Cannot read file`: Ensure the file has sufficient access permissions before trying again. 
 
-For further support, open a public issue on GitHub with a description of the problem with steps to reproduce it. Do **not** attach private or sensitive log data with your report. If CSV log data is needed, post a sanitized, minimal example.
+For further support, open a public issue on GitHub with a description of the problem and steps to reproduce it. Do **not** attach private or sensitive log data with your report. If CSV log data is needed, post a sanitized, minimal example.
