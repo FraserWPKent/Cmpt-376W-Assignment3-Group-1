@@ -45,7 +45,7 @@ python loglens.py --help
 
 ## Problems and fixes
 
-* `CSV must contain timestamp, level, and message columns`: Ensure that the file headers are named exactly `timestamp`, `level`, and `message`.
+* `CSV must contain timestamp, level, and message columns`: Ensure that column headers are named exactly `timestamp`, `level`, and `message`.
 * `File not found`: Ensure that the file path name is correct or that the file exists before trying again.
 * `Cannot read file`: Ensure the file has sufficient access permissions before trying again. 
 
