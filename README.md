@@ -47,6 +47,5 @@ If you encounter an error when attempting to run the loglens tool please execute
 
 If you are experiencing a different issue or that previous step failed to fix your issue please see the [INSTALL](docs/INSTALL.md) file to ensure your installation was correct.
 
-If you are still unable to fix the issue please create a issue on the original [LogLens repository](https://github.com/FraserWPKent/Cmpt-376W-Assignment3-Group-1/tree/main) so that a member of the team can help you directly.
-    - When creating your issue please sanitize or remove any any sensitive log data. GitHub issues are public and can be seen by anyone 
-
+If you are still unable to fix the issue please create a issue on the original [LogLens repository](https://github.com/FraserWPKent/Cmpt-376W-Assignment3-Group-1/tree/main) so that a member of the team can help you directly. 
+  - When creating your GitHub issue please sanitize or remove any any sensitive log data. GitHub issues are public and can be seen by anyone 
