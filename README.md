@@ -1,27 +1,52 @@
 # LogLens - find all your log problems fast
 
-LogLens is a really simple program that tells you what's happening in your logs. It is useful for developers, IT staff, customers, and anybody who has a computer. You don't really need to know anything about log files to get started. It finds problems in your files, so you can use it to make decisions about your system. Your data is always 100% secure.
+LogLens is a tool which counts records stored in CSV log files. 
 
-## Requirements and things
+It is intended to be used by those who are already decently profficient in the use of CSV files and terminal based app development.
 
-You need Python. Most computers already have it, and version 3.6 or later should be good enough. It works on Windows, Mac, and Linux. Other than that, there is not much to know.
+## Requirements
 
-## Get started
+LogLense requires Python version `3.10`.
 
-First, get the project files from GitHub. Then install the program using `pip install log-lens` and run it by typing `loglens`. If you can't make it work, see docs/INSTALL.md. You probably won't need those instructions.
+It also requires basic knowledge of CSV logging and a working knowledge of terminal based application usage.
+
+## Installation
+To install clone this repository or download its files onto your machine.
+
+Once downloaded and extracted please move the entire LogLens repository into your desired location.
+
+## Input format
+The given log file must be a **CSV** file type. 
+
+The given log file must contain three columns: `timestamp`, `level`, and `message`.
+-  `timestamp`: Stores the time the record described in the log.
+-  `level`: Stores the log level of the record.
+-  `message`: Stores a description of the record.
+
+Ensure you note down the path between the root of the LogLens repository and the files you want to analyze as it will be required when running the tool.
 
 ## Using the program
 
-Run the following command after you have found the correct folder:
+Once installed please open your terminal and navigate to the root of the LogLens repository.
+    - You should be on the same level as the loglens.py file
 
-`loglens --input mylog.csv --severity error`
+From the repository root LogLens can be run with the command: 
+  - **Note**: If your system uses python3 replace any instance of `python` with `python3`
+  - `python loglens.py --file (log file path) --level (log level)`
+      - Replace `(log file path)` with the relative path from the root to your file
+          - The `--file` option and `(log file path)` are required.
+      - Replace `(log level)` with either `INFO`, `WARN`, or `ERROR`
+          - If you want to count all records omit `--level` and `(log level)`
 
-The software scans your log, fixes mistakes, and shows you what went wrong. You will see a number once it is finished. You can also run it on real production files without worrying about any side effects.
-
-## Input format
-
-The input should be a CSV file. Log files tend to have fields describing the time and what happened, but LogLens is flexible and will work with whatever columns your monitoring system uses. A small example is included somewhere in this repository.
+A full list of command line options can be found by running: 
+    - `python loglens.py --help`
 
 ## Questions
 
-If something doesn't work, just contact the developers or create an issue. Make sure you describe the problem so somebody can help. This is a basic tool, so the instructions should be pretty obvious.
+If you encounter an error when attempting to run the loglens tool please execute `python loglense.py --help` and check that all your options are correct.
+
+If you are experiencing a different issue or that previous step failed to fix your issue please see the [INSTALL](docs/INSTALL.md) file to ensure your installation was correct.
+
+If you are still unable to fix the issue please create a issue on the original [LogLens repository](https://github.com/FraserWPKent/Cmpt-376W-Assignment3-Group-1/tree/main) so that a member of the team can help you directly.
+    - When creating your issue please sanitize or remove any any sensitive log data. GitHub issues are public and can be seen by anyone 
+
