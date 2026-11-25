@@ -4,7 +4,7 @@ The tutorial runs the script using `python`. Other operating systems may use `py
 
 ## Requirements
 
-* Python 3.10 or newer
+* Python `3.10` or newer
 
 Pip or other third-party dependencies are not required.
 
@@ -49,4 +49,4 @@ python loglens.py --help
 * `File not found`: Ensure that the file path name is correct or that the file exists before trying again.
 * `Cannot read file`: Ensure the file has sufficient access permissions before trying again. 
 
-For further support, open a public issue on GitHub with a description of the problem and steps to reproduce it. Do **not** attach private or sensitive log data with your report. If CSV log data is needed, post a sanitized, minimal example.
+For further support, open a [public issue on GitHub](https://github.com/FraserWPKent/Cmpt-376W-Assignment3-Group-1/issues) with a description of the problem and steps to reproduce it. Do **not** attach private or sensitive log data with your report. If CSV log data is needed, post a sanitized, minimal example.
