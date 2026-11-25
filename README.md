@@ -33,7 +33,7 @@ Once installed please open your terminal and navigate to the root of the LogLens
 From the repository root LogLens can be run with the command: 
   - **Note**: If your system uses python3 replace any instance of `python` with `python3`
   - `python loglens.py --file (log file path) --level (log level)`
-      - Replace `(log file path)` with the relative path from the root to your file
+      - Replace `(log file path)` with the relative path from the LogLens repository root to your target log file
           - The `--file` option and `(log file path)` are required.
       - Replace `(log level)` with either `INFO`, `WARN`, or `ERROR`
           - If you want to count all records omit `--level` and `(log level)`
